@@ -14,7 +14,7 @@ body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.22;ba
 header{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:22px}
 .eyebrow{font-size:12px;letter-spacing:.22em;color:var(--gold);font-weight:800;margin-bottom:7px}
 h1{font-family:"Noto Serif TC","PMingLiU",serif;font-size:clamp(30px,6vw,52px);line-height:1.05;margin:0;letter-spacing:.04em}
-.sub{color:var(--muted);margin:10px 0 0;line-height:1.7}
+.notice{margin:12px 0 0;color:var(--red);font-size:14px;font-weight:700;line-height:1.65}.sub{color:var(--muted);margin:5px 0 0;line-height:1.7}
 .badge{white-space:nowrap;border:1px solid var(--line);background:rgba(255,253,248,.7);padding:8px 12px;border-radius:999px;color:var(--muted);font-size:13px}
 .panel{background:rgba(255,253,248,.93);border:1px solid rgba(189,176,148,.55);border-radius:22px;box-shadow:var(--shadow);overflow:hidden}
 .tabs{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--line);background:#f4efe4}
@@ -61,6 +61,7 @@ footer{text-align:center;color:var(--muted);font-size:12px;line-height:1.7;margi
 <body>
 <div class="wrap">
 <header><div><div class="eyebrow">TOUKEN RANBU ONLINE</div><h1>等級換算器</h1><p class="notice">※本網站僅供輸入初刀的累積經驗值進行換算。</p><p class="sub">依刀種換算極刀劍 Lv.1～199 的累計經驗值。</p></div><div class="badge">資料內建・可離線使用</div></header>
+<main class="panel">
 <div class="tabs"><button class="tab active" data-mode="exp">EXP → 等級</button><button class="tab" data-mode="level">等級 → EXP</button></div>
 <div class="content">
 <div class="grid">
